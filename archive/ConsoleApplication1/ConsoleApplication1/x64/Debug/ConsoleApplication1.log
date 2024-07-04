@@ -1,0 +1,110 @@
+﻿  ConsoleApplication1.cpp
+C:\Users\Dimon\YandexDisk\teleport\Cpp\ConsoleApplication1\ConsoleApplication1\ConsoleApplication1.cpp(194,26): warning C4267: return: преобразование из "size_t" в "int"; возможна потеря данных
+  C:\Users\Dimon\YandexDisk\teleport\Cpp\ConsoleApplication1\ConsoleApplication1\ConsoleApplication1.cpp(194,26):
+  контекст создания экземпляра шаблона (сначала самый старый)
+  	C:\Users\Dimon\YandexDisk\teleport\Cpp\ConsoleApplication1\ConsoleApplication1\ConsoleApplication1.cpp(226,18):
+  	выполняется компиляция ссылки на экземпляр класс шаблон функции "AvlTree<int,IsLessDefault<T>>"
+          with
+          [
+              T=int
+          ]
+  	C:\Users\Dimon\YandexDisk\teleport\Cpp\ConsoleApplication1\ConsoleApplication1\ConsoleApplication1.cpp(189,53):
+  	во время компиляции функции-члена класс шаблон "int AvlTree<int,IsLessDefault<T>>::FindPosition(const T &)"
+          with
+          [
+              T=int
+          ]
+  		C:\Users\Dimon\YandexDisk\teleport\Cpp\ConsoleApplication1\ConsoleApplication1\ConsoleApplication1.cpp(231,41):
+  		см. первую ссылку на AvlTree<int,IsLessDefault<T>>::FindPosition "main"
+          with
+          [
+              T=int
+          ]
+  
+C:\Users\Dimon\YandexDisk\teleport\Cpp\ConsoleApplication1\ConsoleApplication1\ConsoleApplication1.cpp(198,43): warning C4267: +=: преобразование из "size_t" в "int"; возможна потеря данных
+C:\Users\Dimon\YandexDisk\teleport\Cpp\ConsoleApplication1\ConsoleApplication1\ConsoleApplication1.cpp(211,43): warning C4267: аргумент: преобразование из "size_t" в "const T"; возможна потеря данных
+C:\Users\Dimon\YandexDisk\teleport\Cpp\ConsoleApplication1\ConsoleApplication1\ConsoleApplication1.cpp(211,43): warning C4267:         with
+C:\Users\Dimon\YandexDisk\teleport\Cpp\ConsoleApplication1\ConsoleApplication1\ConsoleApplication1.cpp(211,43): warning C4267:         [
+C:\Users\Dimon\YandexDisk\teleport\Cpp\ConsoleApplication1\ConsoleApplication1\ConsoleApplication1.cpp(211,43): warning C4267:             T=int
+C:\Users\Dimon\YandexDisk\teleport\Cpp\ConsoleApplication1\ConsoleApplication1\ConsoleApplication1.cpp(211,43): warning C4267:         ]
+  C:\Users\Dimon\YandexDisk\teleport\Cpp\ConsoleApplication1\ConsoleApplication1\ConsoleApplication1.cpp(211,43):
+  контекст создания экземпляра шаблона (сначала самый старый)
+  	C:\Users\Dimon\YandexDisk\teleport\Cpp\ConsoleApplication1\ConsoleApplication1\ConsoleApplication1.cpp(205,51):
+  	во время компиляции функции-члена класс шаблон "T AvlTree<T,IsLessDefault<T>>::FindData(const T &)"
+          with
+          [
+              T=int
+          ]
+  		C:\Users\Dimon\YandexDisk\teleport\Cpp\ConsoleApplication1\ConsoleApplication1\ConsoleApplication1.cpp(240,10):
+  		см. первую ссылку на AvlTree<int,IsLessDefault<T>>::FindData "main"
+          with
+          [
+              T=int
+          ]
+  
+C:\Users\Dimon\YandexDisk\teleport\Cpp\ConsoleApplication1\ConsoleApplication1\ConsoleApplication1.cpp(214,43): warning C4267: +=: преобразование из "size_t" в "int"; возможна потеря данных
+C:\Users\Dimon\YandexDisk\teleport\Cpp\ConsoleApplication1\ConsoleApplication1\ConsoleApplication1.cpp(143,15): warning C4101: root: неиспользованная локальная переменная
+  C:\Users\Dimon\YandexDisk\teleport\Cpp\ConsoleApplication1\ConsoleApplication1\ConsoleApplication1.cpp(143,15):
+  контекст создания экземпляра шаблона (сначала самый старый)
+  	C:\Users\Dimon\YandexDisk\teleport\Cpp\ConsoleApplication1\ConsoleApplication1\ConsoleApplication1.cpp(126,11):
+  	во время компиляции функции-члена класс шаблон "AvlTree<int,IsLessDefault<T>>::Node *AvlTree<T,IsLessDefault<T>>::doBalance(AvlTree<T,IsLessDefault<T>>::Node *)"
+          with
+          [
+              T=int
+          ]
+  		C:\Users\Dimon\YandexDisk\teleport\Cpp\ConsoleApplication1\ConsoleApplication1\ConsoleApplication1.cpp(81,9):
+  		см. первую ссылку на AvlTree<int,IsLessDefault<T>>::doBalance "AvlTree<int,IsLessDefault<T>>::addInternal"
+          with
+          [
+              T=int
+          ]
+  		C:\Users\Dimon\YandexDisk\teleport\Cpp\ConsoleApplication1\ConsoleApplication1\ConsoleApplication1.cpp(185,10):
+  		см. первую ссылку на AvlTree<int,IsLessDefault<T>>::addInternal "AvlTree<int,IsLessDefault<T>>::Add"
+          with
+          [
+              T=int
+          ]
+  		C:\Users\Dimon\YandexDisk\teleport\Cpp\ConsoleApplication1\ConsoleApplication1\ConsoleApplication1.cpp(230,13):
+  		см. первую ссылку на AvlTree<int,IsLessDefault<T>>::Add "main"
+          with
+          [
+              T=int
+          ]
+  
+C:\Users\Dimon\YandexDisk\teleport\Cpp\ConsoleApplication1\ConsoleApplication1\ConsoleApplication1.cpp(101,39): warning C4267: return: преобразование из "size_t" в "int"; возможна потеря данных
+  C:\Users\Dimon\YandexDisk\teleport\Cpp\ConsoleApplication1\ConsoleApplication1\ConsoleApplication1.cpp(101,39):
+  контекст создания экземпляра шаблона (сначала самый старый)
+  	C:\Users\Dimon\YandexDisk\teleport\Cpp\ConsoleApplication1\ConsoleApplication1\ConsoleApplication1.cpp(100,9):
+  	во время компиляции функции-члена класс шаблон "int AvlTree<int,IsLessDefault<T>>::getBalance(AvlTree<T,IsLessDefault<T>>::Node *)"
+          with
+          [
+              T=int
+          ]
+  		C:\Users\Dimon\YandexDisk\teleport\Cpp\ConsoleApplication1\ConsoleApplication1\ConsoleApplication1.cpp(129,9):
+  		см. первую ссылку на AvlTree<int,IsLessDefault<T>>::getBalance "AvlTree<int,IsLessDefault<T>>::doBalance"
+          with
+          [
+              T=int
+          ]
+  		C:\Users\Dimon\YandexDisk\teleport\Cpp\ConsoleApplication1\ConsoleApplication1\ConsoleApplication1.cpp(81,9):
+  		см. первую ссылку на AvlTree<int,IsLessDefault<T>>::doBalance "AvlTree<int,IsLessDefault<T>>::addInternal"
+          with
+          [
+              T=int
+          ]
+  		C:\Users\Dimon\YandexDisk\teleport\Cpp\ConsoleApplication1\ConsoleApplication1\ConsoleApplication1.cpp(185,10):
+  		см. первую ссылку на AvlTree<int,IsLessDefault<T>>::addInternal "AvlTree<int,IsLessDefault<T>>::Add"
+          with
+          [
+              T=int
+          ]
+  		C:\Users\Dimon\YandexDisk\teleport\Cpp\ConsoleApplication1\ConsoleApplication1\ConsoleApplication1.cpp(230,13):
+  		см. первую ссылку на AvlTree<int,IsLessDefault<T>>::Add "main"
+          with
+          [
+              T=int
+          ]
+  
+C:\Users\Dimon\YandexDisk\teleport\Cpp\ConsoleApplication1\ConsoleApplication1\ConsoleApplication1.cpp(202,1): warning C4715: AvlTree<int,IsLessDefault<int> >::FindPosition: значение возвращается не при всех путях выполнения
+C:\Users\Dimon\YandexDisk\teleport\Cpp\ConsoleApplication1\ConsoleApplication1\ConsoleApplication1.cpp(218,1): warning C4715: AvlTree<int,IsLessDefault<int> >::FindData: значение возвращается не при всех путях выполнения
+  ConsoleApplication1.vcxproj -> C:\Users\Dimon\YandexDisk\teleport\Cpp\ConsoleApplication1\x64\Debug\ConsoleApplication1.exe

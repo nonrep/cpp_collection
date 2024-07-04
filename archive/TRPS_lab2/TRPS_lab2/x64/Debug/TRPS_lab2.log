@@ -1,0 +1,5 @@
+﻿  TRPS_lab2.cpp
+C:\Users\Dimon\YandexDisk\teleport\Cpp\TRPS_lab2\TRPS_lab2\TRPS_lab2.cpp(15,31): warning C4101: FOpenOK: неиспользованная локальная переменная
+C:\Users\Dimon\YandexDisk\teleport\Cpp\TRPS_lab2\TRPS_lab2\TRPS_lab2.cpp(16,9): warning C4101: i: неиспользованная локальная переменная
+C:\Users\Dimon\YandexDisk\teleport\Cpp\TRPS_lab2\TRPS_lab2\TRPS_lab2.cpp(15,57): warning C4101: r: неиспользованная локальная переменная
+  TRPS_lab2.vcxproj -> C:\Users\Dimon\YandexDisk\teleport\Cpp\TRPS_lab2\x64\Debug\TRPS_lab2.exe
